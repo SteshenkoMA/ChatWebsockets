@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Chat</title>
+    </head>
+    <body>
+
+        <table>
+            <tr>
+                <td colspan="2">
+                    <input type="text" size="15" id="nickname" placeholder="nickname"/>
+                    <input type="text" id="chatRoom" placeholder="chatRoom"/>
+                    <button type="button" onclick="connect();" >Connect</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <textarea readonly="true" rows="10" cols="60" id="log"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                   <input type="text" size="51" id="message" placeholder="message"/>
+                    <button type="button" onclick="send();" >Send</button>
+                </td>
+            </tr>
+        </table>
+    </body>
+
+    <script src="js/script.js"></script>
+
+</html>
